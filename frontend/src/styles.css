@@ -1,0 +1,169 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #dbe7f3 100%);
+  color: #112137;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 360px 1fr;
+  align-items: start;
+}
+
+.card {
+  border-radius: 14px;
+  background: #ffffffd9;
+  border: 1px solid #d4e0eb;
+  box-shadow: 0 8px 25px #1f35491c;
+  padding: 1rem;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 0.5rem 0 0;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.form h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  border: 1px solid #c4d2df;
+  border-radius: 10px;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.95rem;
+  background: #f9fbfd;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #0d8a83;
+  color: #fff;
+}
+
+.btn-muted {
+  background: #d8e1ea;
+  color: #1f2b3a;
+}
+
+.btn-danger {
+  background: #cc4a3f;
+  color: #fff;
+}
+
+.task-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.task-item h3 {
+  margin: 0;
+}
+
+.task-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.task-item p {
+  margin: 0.7rem 0;
+}
+
+.status {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.status-todo {
+  background: #e8eefa;
+  color: #2e4f95;
+}
+
+.status-progress {
+  background: #fff2da;
+  color: #b16d02;
+}
+
+.status-done {
+  background: #d9f5e7;
+  color: #17714b;
+}
+
+.error {
+  margin: 1rem 0;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  color: #7d1b1b;
+  background: #ffe1e1;
+  border: 1px solid #ffbbbb;
+}
+
+@media (max-width: 900px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
