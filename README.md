@@ -1,4 +1,4 @@
-# TP1 PB-2026 - Monolito Spring Boot + React
+# Projeto DDD-2026 - Monolito Spring Boot + React
 
 [![CI](https://github.com/MarlonPasseri/TP1-PB-DDD-/actions/workflows/ci.yml/badge.svg)](https://github.com/MarlonPasseri/TP1-PB-DDD-/actions/workflows/ci.yml)
 [![Java 17](https://img.shields.io/badge/Java-17-007396?logo=openjdk&logoColor=white)](https://openjdk.org/)
